@@ -20,5 +20,4 @@ Homework of Spark Core - Invert index
 本地运行结果：
 ![hw_4_1](https://user-images.githubusercontent.com/11592423/130737448-852656a0-1064-4f67-9fee-22b4595063f8.jpg)
 
-代码：
 
