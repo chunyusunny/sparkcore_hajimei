@@ -38,7 +38,7 @@ public class InvertedIndexMain {
         //flatmap
         JavaRDD<Tuple2<String, String>> words = lines.flatMap(new FlatMapFunction<Tuple2<String, String>, Tuple2<String, String>>() {
             public Iterator<Tuple2<String, String>> call(Tuple2<String, String> line) {
-                String[] wordArr = line._2.split(" ");//get the each word
+                String[] wordArr = line._2.split(" ");//get each word
                 List<Tuple2<String, String>> wordList = new ArrayList<Tuple2<String, String>>();
                 for (String word : wordArr) {
                     //for each word, new a tuple2 with word and original file name
